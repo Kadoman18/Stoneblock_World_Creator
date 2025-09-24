@@ -3,7 +3,7 @@
 	"minecraft:feature_rules": {
 		"description": {
 			"identifier": "minecraft:overworld_amethyst_geode_feature",
-			"places_feature": "kado:overworld_block_filter"
+			"places_feature": "kado:overworld_top_block_filter"
 		},
 		"conditions": {
 			"placement_pass": "after_surface_pass",

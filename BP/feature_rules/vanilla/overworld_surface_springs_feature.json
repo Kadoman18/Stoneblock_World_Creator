@@ -3,7 +3,7 @@
 	"minecraft:feature_rules": {
 		"description": {
 			"identifier": "minecraft:overworld_surface_springs_feature",
-			"places_feature": "kado:overworld_block_filter"
+			"places_feature": "kado:overworld_top_block_filter"
 		},
 		"conditions": {
 			"placement_pass": "surface_pass",
