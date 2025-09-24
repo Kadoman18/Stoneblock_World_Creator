@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "kado:end_replace_feature"
+		},
+		"places_feature": "kado:end_block_filter",
+		"distribution": {
+			"iterations": 65536,
+			"scatter_chance": 100,
+			"x": {
+				"distribution": "fixed_grid",
+				"extent": [0, 15]
+			},
+			"z": {
+				"distribution": "fixed_grid",
+				"extent": [0, 15]
+			},
+			"y": {
+				"distribution": "fixed_grid",
+				"extent": [0, 256]
+			}
+		}
+	}
+}

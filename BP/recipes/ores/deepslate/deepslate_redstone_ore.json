@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:deepslate_redstone_ore"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:redstone_block"
+			},
+			{
+				"item": "minecraft:cobbled_deepslate"
+			}
+		],
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "minecraft:redstone_block",
+				"count": 1
+			},
+			{
+				"item": "minecraft:cobbled_deepslate",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:deepslate_redstone_ore"
+			}
+		]
+	}
+}

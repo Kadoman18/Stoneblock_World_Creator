@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:iron_ore"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"item": "minecraft:stone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "minecraft:iron_ingot",
+				"count": 3
+			},
+			{
+				"item": "minecraft:stone",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:iron_ore"
+			}
+		]
+	}
+}

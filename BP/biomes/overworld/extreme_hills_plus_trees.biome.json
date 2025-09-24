@@ -1,0 +1,44 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "minecraft:extreme_hills_plus_trees"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.3,
+				"snow_accumulation": [0.0, 0.125],
+				"temperature": 0.2
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "extreme"
+			},
+			"minecraft:surface_builder": {
+				"builder": {
+					"type": "minecraft:overworld",
+					"sea_floor_depth": 64,
+					"sea_floor_material": "minecraft:stone",
+					"foundation_material": "minecraft:deepslate",
+					"mid_material": "minecraft:stone",
+					"top_material": "minecraft:stone",
+					"sea_material": "minecraft:stone"
+				}
+			},
+			"minecraft:overworld_generation_rules": {
+				"mutate_transformation": "minecraft:extreme_hills_plus_trees_mutated"
+			},
+
+			"minecraft:tags": {
+				"tags": [
+					"animal",
+					"extreme_hills",
+					"forest",
+					"monster",
+					"mountain",
+					"overworld",
+					"spawns_cold_variant_farm_animals"
+				]
+			}
+		}
+	}
+}

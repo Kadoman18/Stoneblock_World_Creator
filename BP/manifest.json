@@ -1,0 +1,19 @@
+{
+	"format_version": 2,
+	"header": {
+		"min_engine_version": [1, 21, 0],
+		"name": "Stoneblock Generation (BP)",
+		"description": "Enables encapsulated world generation while keeping biome mapping",
+		"uuid": "cea6e7ef-0983-4ea8-8d92-56f453f540c6",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "First Iteration",
+			"uuid": "7b38674f-fd84-4c69-b61f-cc0bd784b989",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": { "authors": ["Kadoman18"] }
+}

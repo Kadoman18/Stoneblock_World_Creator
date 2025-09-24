@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:quarts_ore"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:quartz"
+			},
+			{
+				"item": "minecraft:netherrack"
+			}
+		],
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "minecraft:quartz",
+				"count": 3
+			},
+			{
+				"item": "minecraft:netherrack",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:quartz_ore"
+			}
+		]
+	}
+}

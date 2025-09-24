@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:diamond_ore"
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diamond"
+			},
+			{
+				"item": "minecraft:stone"
+			}
+		],
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "minecraft:diamond",
+				"count": 3
+			},
+			{
+				"item": "minecraft:stone",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:diamond_ore"
+			}
+		]
+	}
+}
